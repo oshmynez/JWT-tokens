@@ -193,7 +193,7 @@ async function Registration(user, req, res) {
 
 async function start() {
     try {
-        await mongoose.connect("mongodb+srv://dima:1088834@cluster0.uwrbc.mongodb.net/dbtest", {
+        await mongoose.connect("mongodb+srv://dima:<password>@cluster0.uwrbc.mongodb.net/dbtest", {
             useUnifiedTopology: true,
             useNewUrlParser: true
         });
